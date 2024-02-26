@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://dreamhack.io/
+HostUrl=https://sfo2.digitaloceanspaces.com/wargame1/public/ac2a7ec5-bb21-49c1-82ce-43107adcc80c.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=OIK4A6AORYFTHBTQUV55%2F20240101%2Fsfo2%2Fs3%2Faws4_request&X-Amz-Date=20240101T100319Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1aef7b28c45f2a0450b674bbecfa588a6cae3bb83dd0e86e61cea49ac9bba0cc
