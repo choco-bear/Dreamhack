@@ -96,4 +96,8 @@ $ checksec ./tcache_dup
 
 # 코드 분석
 
+* `tcache_dup.c:20-37` : `malloc` 함수로 청크를 할당한 후 메모리 영역을 초기화하지 않으므로 use after free가 발생할 가능성이 있다.
+* `tcache_dup.c:39-50` : `free` 함수로 청크를 해제한 후 포인터를 초기화하지 않아 danglin pointer가 발생한다. 따라서 이를 이용하면 double free bug를 발생시킬 수 있다.
+* `tcache_dup.c:52-54` : 호출하기만 하면 쉘을 탈취할 수 있다.
+
 # 공격
