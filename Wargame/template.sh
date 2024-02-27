@@ -23,6 +23,7 @@ echo "#endif /* __Custom_Functions_For_Convenience_ */" >> "$NAME.py"
 echo "" >> "$NAME.py"
 echo "#ifndef __Custom_Global_Variables_For_Convenience_" >> "$NAME.py"
 echo "#define __Custom_Global_Variables_For_Convenience_" >> "$NAME.py"
+echo "dummy = b'A'" >> "$NAME.py"
 echo "#endif /* __Custom_Global_Variables_For_Convenience_ */" >> "$NAME.py"
 
 touch "$NAME.md"
